@@ -11,12 +11,14 @@ app.use(cors())
 app.use(express.json())
 
 // MongoDB Connection
-mongoose.connect("mongodb://localhost:27017/comal_db")
-  .then(() => {
-    console.log("✓ MongoDB connected")
-    initializeData()
-  })
-  .catch(err => console.error("MongoDB error:", err))
+const MONGO_URI = "mongodb+srv://2236001057_db_user:aoJchBA3n43VTWEW@cluster0.zuxzkfl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+
+mongoose.connect(MONGO_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+})
+.then(() => console.log("Conectado a MongoDB Atlas"))
+.catch(err => console.error("Error de conexión:", err));
 
 // Models
 const userSchema = new mongoose.Schema({
