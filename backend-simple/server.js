@@ -81,11 +81,11 @@ async function initializeData() {
 
     // Create tiendas if not exist (only create new ones, don't modify existing)
     const TIENDAS = [
-      'GOYITA', 'SAUCILLO', 'SAGRADO', 'SANTA ANITA', 'SAN JUDAS', 
+      'GOYITA', 'SAUCILLO', 'SANTA ANITA', 'SAN JUDAS', 
       'ANEXO', 'GUERA', 'CHUNDE', 'JUANJO', 'ALAN', 
       'DIANA', 'PORVENIR', 'ESCUELA', 'PUENYE', 'CLIENTE', 
       'PINTADA', 'DON RICHARD', 'ALI', 'EDIEL', 'LETTY', 
-      'ROSTI', 'NUEVA', 'PONY', 'TAQUERA', 'PATY', 'GORDITAS', 
+      'ROSTI', 'PONY', 'TAQUERA', 'PATY', 'GORDITAS', 
       'DON CHAVA', 'ESQUINA'
     ]
 
