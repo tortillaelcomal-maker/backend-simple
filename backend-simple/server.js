@@ -82,9 +82,9 @@ async function initializeData() {
     const TIENDAS = [
       'GOYITA', 'SAUCILLO', 'SANTA ANITA', 'SAN JUDAS', 
       'ANEXO', 'GUERA', 'CHUNDE', 'JUANJO', 'ALAN', 
-      'DIANA', 'PORVENIR', 'ESCUELA', 'PUENYE', 'CLIENTE', 
-      'PINTADA', 'DON RICHARD', 'ALI', 'EDIEL', 'LETTY', 
-      'ROSTI', 'PONY', 'TAQUERA', 'PATY', 'GORDITAS', 
+      'DIANA', 'PORVENIR', 'ESCUELA', 'FUENTE', 'CLIENTE', 
+      'PINTADA', 'ALI', 'EDIEL', 'LETTY', 
+      'ROSTI', 'PONY','MONREAL', 'TAQUERA', 'PATY', 'GORDITAS', 
       'DON CHAVA', 'ESQUINA'
     ]
 
