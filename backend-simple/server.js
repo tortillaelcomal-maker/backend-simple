@@ -84,7 +84,7 @@ async function initializeData() {
       'ANEXO', 'GUERA', 'CHUNDE', 'JUANJO', 'ALAN', 
       'DIANA', 'PORVENIR', 'ESCUELA', 'FUENTE', 'CLIENTE', 
       'PINTADA', 'ALI', 'EDIEL', 'LETTY', 
-      'ROSTI', 'PONY','MONREAL', 'TAQUERA', 'PATY', 'GORDITAS', 
+      'ROSTI', 'PONY','PATY', 
       'DON CHAVA', 'ESQUINA'
     ]
 
