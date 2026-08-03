@@ -160,7 +160,7 @@ app.post("/api/auth/login", async (req, res) => {
     const token = jwt.sign(
       { id: user._id, nombre: user.nombre, email: user.email, rol: user.rol },
       "comal_secret_2024",
-      { expiresIn: "2h" } 
+      { expiresIn: "24h" } 
     )
     res.json({ success: true, token, user: { nombre: user.nombre, rol: user.rol } })
   } catch (error) {
